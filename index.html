@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Devchallenges 404</title>
+
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Space Mono", monospace;
+        height: 100%;
+        padding: 2.75rem 4.8125rem 0rem 4.8125rem;
+        
+      }
+      header {
+        width: 100%;
+        padding-bottom: 5%;
+        margin-bottom: 4rem;
+      }
+      .banner {
+        width: 8.3125rem;
+        height: 2.0625rem;
+        font-family: "Inconsolata", monospace;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
+        color: #333333;
+      }
+      main {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .col1{
+        flex-grow: 1;
+        display: grid;
+        place-content: center;
+        justify-content: center;
+        max-width: 33.6875rem;
+        min-width: 13.75rem;
+        max-height: 31.1875rem;
+      }
+      .img {
+        width: 100%;
+        margin-bottom: 60px;
+      }
+      
+      .col2 {
+        display: grid;
+        grid-template-rows: 1fr;
+        margin-inline: auto;
+      }
+
+      .title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: max(3.3vw, 35px);
+        letter-spacing: -0.035em;
+        color: #333333;
+      }
+      .desc {
+    
+        font-style: normal;
+        font-weight: 400;
+        font-size: max(3vh, 1px);
+
+        letter-spacing: -0.035em;
+        color: #4f4f4f;
+      }
+      
+      @media screen and (min-width: 620px){
+        .desc{
+          width: 381px;
+          
+        }
+        .title{
+          width: 600px;
+          
+        }
+      }
+      .btn {
+        margin-top: 64px;
+        width: 216px;
+        height: 68px;
+        background-color: #333333;
+        color: white;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.035em;
+        text-transform: uppercase;
+      }
+
+      .footer {
+        margin-top: 300px;
+        height: 30px;
+        width: 100%;
+      }
+      .cp {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #bdbdbd;
+      }
+      .footer a {
+        text-decoration: none;
+        color: #bdbdbd;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header><h1 class="banner">404 NOT FOUND</h1></header>
+
+    <main>
+      <div class="col1">
+        <img class="img" src="./Scarecrow.png" alt="404" />
+      </div>
+      <div class="col2">
+        <h1 class="title">I have bad news for you</h1>
+        <p class="desc">
+          The page you are looking for might be remove or is temporally
+          unavaible
+        </p>
+        <button class="btn">BACK TO HOMEPAGE</button>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="cp">created by <a href="">gabrielSk </a>Devchallenges.io</p>
+    </footer>
+  </body>
+</html>
