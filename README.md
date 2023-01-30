@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://iili.io/H13toWQ.png)
+![screenshot][def]
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -69,3 +69,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - GitHub [@your-username](https://github.com/gabiMaglia})
 
+
+
+[def]: https://iili.io/H13toWQ.png
