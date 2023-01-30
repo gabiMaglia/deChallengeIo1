@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://asset.cloudinary.com/atlasair/89e6d7a7dc0ebe2630450725d84ac57b)
+![screenshot](https://iili.io/H13toWQ.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
