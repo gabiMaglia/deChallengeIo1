@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="hhttps://devchalengesio.web.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchalengesio.web.app/">
       Solution
     </a>
     <span> | </span>
@@ -67,7 +67,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/gabiMaglia})
+- GitHub [@gabiMaglia](https://github.com/gabiMaglia)
 
 
 
